@@ -94,7 +94,6 @@ function showData(comments) {
     const section = document.getElementById('secition')
 
     comments.forEach(comment => {
-
         const div = document.createElement('div')
         div.innerHTML = `
         <div class="card m-2" style="width: 18rem;">
